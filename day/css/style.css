@@ -1,0 +1,72 @@
+.a {
+    color: black;
+}
+ .logo {
+    color: red;
+    font-family: Comic Sans MS;
+    font-size: 30px;
+ }
+
+ .footer {
+     position: relative;
+     background-color: #FF774F;
+     top: 150px;
+     height: 200px;
+     width: 0%;
+     
+     margin-top: 120px;
+     z-index: 2;
+     border-radius: 20px;
+ }
+ .mainfooter{
+     position: relative;
+     height: 800px;
+ }
+ .link {
+     text-decoration: none;
+     color: #fff;
+ }
+ th {
+     font-size: 20px;
+     margin: 30px;
+ }
+@media screen and (min-width:1050px) {
+    #dropdown {
+        width: 450px;
+    }
+}
+@media screen and (max-width:1049px) {
+    #dropdown {
+        width: 300px;
+        
+    }
+}
+@media screen and (max-width:390px) {
+    #dropdown {
+        width: 200px;
+        
+    }
+
+}
+@media screen and (min-width:900px) {
+    #row1 {
+        display: block !important;
+       align-items: center;
+    }
+    #row2 {
+        display: none;
+    }
+}
+
+ @media screen and (max-width:899px) {
+    #row2 {
+        display: grid !important;
+    }
+    #row1{
+        display: none;
+    }
+}
+
+
+
+
